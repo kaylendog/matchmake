@@ -1,0 +1,15 @@
+[package]
+name = "gateway"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7"
+serde_json = "1"
+
+serde = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+
+models = { path = "../../crates/models" }
